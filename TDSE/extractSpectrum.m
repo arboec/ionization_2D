@@ -1,4 +1,4 @@
-load('Z=2_bound_states.mat'); %load bound states
+load('Z=2_bound_states.mat'); %load bound states. The file contains bound states with principal quantum numbers 0..14. Please, contact me by e-mail arboec@gmail.com, it is 27 MB large exceeds the upload quota.
 load('Z=2_size_of_bound_states.mat'); %load a size of bound states
 
 %normalize wave function
