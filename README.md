@@ -9,8 +9,9 @@ Folder "Figures" contains all the figures (except fig7 and fig11, they are too l
 If the raw data are needed, then one can access it with a few MATLAB commands.
 1) As a first step, open the corresponding figure (for example, fig1.fig).
 2) To access the ionization data for the a_0 case, type 3 lines:
-    h = findobj(gca,'Type','line')
-    pulse_length = h(1).XData;
+   
+    h = findobj(gca,'Type','line') \\
+    pulse_length = h(1).XData; \\
     ionization_prob = h(2).YData;
 
 If you do not have MATLAB, then the data can be accessed with an open source alternative Octave. Here is a link on how to open .fig file with Octave:
