@@ -26,4 +26,4 @@ simulation.m -- solves a TDSE for n atom, exposed to the nondipole laser field.
 extractSpectrum.m -- calculates the spectrum after the end of the simulation.
 
 # Relativistic Foldy-Wouthausen equation
-The C++ code to obain results for the large field parameter a_0 is, of course, available upon the request by e-mail. It is somewhat cumbersome and depends on the two external libraries (oneAPI for the parallel calculations and Eigen for matrix calculations).
+The C++ code to obain results for the large field parameter a_0 is, of course, available upon the request by e-mail. It is somewhat cumbersome and depends on the two external libraries (oneMKL for the parallel calculations and Eigen for matrix calculations).
